@@ -1,0 +1,143 @@
+# 1. Namespace
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: work
+---
+# 2. ServiceAccount (Tu musi zostać client-id, aby webhook wiedział co wstrzyknąć)
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: workload
+  namespace: work
+  annotations:
+    azure.workload.identity/client-id: "25e70715-c79b-4799-8d6a-d698cb2415e2"
+---
+# 3. Pod: Workload Pod (Czysty)
+apiVersion: v1
+kind: Pod
+metadata:
+  name: workload-pod
+  namespace: work
+  labels:
+    azure.workload.identity/use: "true"
+spec:
+  serviceAccountName: workload
+  nodeSelector:
+    kubernetes.azure.com/agentpool: worker
+  tolerations:
+    - key: "workload"
+      operator: "Exists"
+      effect: "NoSchedule"
+  containers:
+  - name: app
+    image: mcr.microsoft.com/azure-cli:latest
+    command: ["/bin/sh"]
+    args: ["-c", "while true; do sleep 3600; done"]
+    securityContext:
+      allowPrivilegeEscalation: false
+      readOnlyRootFilesystem: true
+      capabilities:
+        drop: ["ALL"]
+    resources:
+      limits:
+        cpu: "0.5"
+        memory: "512Mi"
+      requests:
+        cpu: "0.1"
+        memory: "128Mi"
+---
+# 4. Pod: Key Vault Client
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kv-client
+  namespace: work
+  labels:
+    azure.workload.identity/use: "true"
+spec:
+  serviceAccountName: workload
+  nodeSelector:
+    kubernetes.azure.com/agentpool: worker
+  tolerations:
+    - key: "workload"
+      operator: "Exists"
+      effect: "NoSchedule"
+  containers:
+  - name: app
+    image: mcr.microsoft.com/azure-cli:latest
+    command: ["/bin/bash", "-c", "trap : TERM INT; sleep infinity & wait"]
+    env:
+    - name: KEY_VAULT_NAME
+      value: "kv-dev-n2gp6h"
+    resources:
+      limits:
+        cpu: "0.5"
+        memory: "512Mi"
+      requests:
+        cpu: "0.1"
+        memory: "128Mi"
+---
+# 5. Pod: SQL Client Debug
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sql-client-debug
+  namespace: work
+  labels:
+    azure.workload.identity/use: "true"
+spec:
+  serviceAccountName: workload
+  nodeSelector:
+    kubernetes.azure.com/agentpool: worker
+  tolerations:
+    - key: "workload"
+      operator: "Exists"
+      effect: "NoSchedule"
+  containers:
+  - name: app
+    image: mcr.microsoft.com/azure-cli:latest
+    securityContext:
+      allowPrivilegeEscalation: false
+      readOnlyRootFilesystem: false
+    command: ["/bin/bash", "-c"]
+    args: ["trap : TERM INT; sleep infinity & wait"]
+---
+# 6. Pod: Storage Client
+apiVersion: v1
+kind: Pod
+metadata:
+  name: storage-client
+  namespace: work
+  labels:
+    azure.workload.identity/use: "true"
+spec:
+  serviceAccountName: workload
+  nodeSelector:
+    kubernetes.azure.com/agentpool: worker
+  tolerations:
+    - key: "workload"
+      operator: "Exists"
+      effect: "NoSchedule"
+  containers:
+  - name: app
+    image: mcr.microsoft.com/azure-cli:latest
+    command: ["/bin/bash", "-c", "trap : TERM INT; sleep infinity & wait"]
+    env:
+    - name: STORAGE_ACCOUNT_NAME
+      value: "stdevwj6cvc"
+    - name: RESOURCE_GROUP_NAME
+      value: "rg-meetup-aks"
+    resources:
+      limits:
+        cpu: "0.5"
+        memory: "512Mi"
+      requests:
+        cpu: "0.1"
+        memory: "128Mi"
+    volumeMounts:
+    - name: tmp-storage
+      mountPath: /tmp
+  volumes:
+  - name: tmp-storage
+    emptyDir: {}

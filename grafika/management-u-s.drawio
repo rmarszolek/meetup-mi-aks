@@ -1,0 +1,93 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="bcw_mx-KT7sp9i98bxDK">
+    <mxGraphModel dx="1426" dy="841" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-1" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.resources;fillColor=#759C3E;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="79.5" width="67.5" x="120" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="resource" vertex="1">
+          <mxGeometry height="30" width="60" x="123.75" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-3" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Managed_Identities.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="38" x="260" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;User-assigned managed identity&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;System-assigned managed identity&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="340" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-6" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Managed_Identities.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="38" x="260" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VM&lt;div&gt;Azure App Service&lt;/div&gt;&lt;div&gt;Azure Logic Apps&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="80" x="113.75" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="one to one&lt;div&gt;tożsamość jest unikalna&lt;/div&gt;&lt;div&gt;nie można przipisać do innego zasobu&lt;/div&gt;&lt;div&gt;usuwana z zasobem&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="370" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="można przypisac do wielu zasobów&lt;div&gt;do jednego zasobu można przypisać różne tożsamości&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="360" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-12" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="179.25" as="sourcePoint" />
+            <mxPoint x="700" y="179.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="zadanie do wykonania" vertex="1">
+          <mxGeometry height="30" width="200" x="320" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-14" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Managed_Identities.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="30.4" x="240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-16" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Managed_Identities.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="22.8" x="750" y="204.75" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-17" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Managed_Identities.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="22.8" x="750" y="164.75" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-18" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Managed_Identities.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="22.8" x="750" y="124.75" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="redear" vertex="1">
+          <mxGeometry height="30" width="60" x="772.8" y="124.75" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="contributor" vertex="1">
+          <mxGeometry height="30" width="60" x="790" y="164.75" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="owner" vertex="1">
+          <mxGeometry height="30" width="60" x="780" y="204.75" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-22" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="880" y="179.5" as="sourcePoint" />
+            <mxPoint x="990" y="179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-24" connectable="0" parent="-KVH8xtUujvz9iTIpTKC-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="wybór tożsamości&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-25" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Managed_Identities.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="22.8" x="1010" y="164.75" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-26" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.resources;fillColor=#41FF2C;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="79.5" width="67.5" x="1060" y="130.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="działanie na zasobie docelowym z wybranym&amp;nbsp; MI/tokenem" vertex="1">
+          <mxGeometry height="30" width="60" x="1063.75" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-28" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Managed_Identities.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="22.8" x="270.4" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-KVH8xtUujvz9iTIpTKC-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="pobranie tokenu" vertex="1">
+          <mxGeometry height="30" width="90" x="890" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,133 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="E3-bplOLOvKgyrZV-Une">
+    <mxGraphModel dx="1426" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-1" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_network;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="20" width="40" x="120" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="220" width="250" x="130" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-3" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="43.13" x="280" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="180" width="130" x="236.57" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-5" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="24.71" x="210" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="50" width="20" x="300" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="vnet-hub" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="snet-vm" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="nsg-hub-vm" vertex="1">
+          <mxGeometry height="30" width="60" x="140" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-10" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="210" as="sourcePoint" />
+            <mxPoint x="460" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-11" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_network;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="20" width="40" x="483.43" y="-15" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="410" width="643.43" x="470" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="220" width="130" x="603.4300000000001" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-15" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="24.71" x="573.4300000000001" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="vnet-spoke" vertex="1">
+          <mxGeometry height="30" width="80" x="533.4300000000001" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="snet-aks" vertex="1">
+          <mxGeometry height="30" width="60" x="613.4300000000001" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="nsg-spoke-hub" vertex="1">
+          <mxGeometry height="30" width="80" x="483.43" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-20" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="45.34" x="633.4300000000001" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-21" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Scale_Set.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="636.1" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="aks-dev-cluster" vertex="1">
+          <mxGeometry height="30" width="100" x="613.4300000000001" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="120" width="130" x="903.4300000000001" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-25" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="24.71" x="873.4300000000001" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="snet-aks-nodes" vertex="1">
+          <mxGeometry height="30" width="60" x="913.4300000000001" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="nsg-spoke-nodes" vertex="1">
+          <mxGeometry height="30" width="80" x="783.4300000000001" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-30" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Scale_Set.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="933.4300000000001" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="aks-system&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="77.33" x="626.1" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="aks-worker" vertex="1">
+          <mxGeometry height="30" width="80" x="913.4300000000001" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="100" width="232.36" x="861.0699999999999" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-35" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="24.71" x="823.4300000000001" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="snet-private-endpoints" vertex="1">
+          <mxGeometry height="30" width="60" x="863.4300000000001" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="nsg-spoke-nodes" vertex="1">
+          <mxGeometry height="30" width="80" x="733.4300000000001" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-40" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Private_Link.svg;" value="" vertex="1">
+          <mxGeometry height="23" width="25.09" x="880.8900000000001" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="sql" vertex="1">
+          <mxGeometry height="30" width="60" x="863.4300000000001" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-42" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Private_Link.svg;" value="" vertex="1">
+          <mxGeometry height="23" width="25.09" x="965.98" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-43" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Private_Link.svg;" value="" vertex="1">
+          <mxGeometry height="23" width="25.09" x="1033.43" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="storage" vertex="1">
+          <mxGeometry height="30" width="60" x="948.53" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="kv" vertex="1">
+          <mxGeometry height="30" width="60" x="1015.98" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-46" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="37.5" x="958.5" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-47" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/SQL_Servers.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="873.44" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="N3Ug02_ECucTWrgyo4x9-48" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="1025.98" y="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,127 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="jieMU9ZJUpqchUK8ICF3">
+    <mxGraphModel dx="1426" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-1" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Managed_Identities.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="38" x="50" y="-1080" as="geometry" />
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-2" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="340" width="800" x="40" y="-1000" as="geometry" />
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-3" parent="GNeKwGelp0AtwS-ODqFb-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="79" width="800" as="geometry" />
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-4" parent="GNeKwGelp0AtwS-ODqFb-3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Właściwość" vertex="1">
+          <mxGeometry height="79" width="244" as="geometry">
+            <mxRectangle height="79" width="244" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-5" parent="GNeKwGelp0AtwS-ODqFb-3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="System-assigned managed identity" vertex="1">
+          <mxGeometry height="79" width="245" x="244" as="geometry">
+            <mxRectangle height="79" width="245" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-6" parent="GNeKwGelp0AtwS-ODqFb-3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="User-assigned managed identity" vertex="1">
+          <mxGeometry height="79" width="311" x="489" as="geometry">
+            <mxRectangle height="79" width="311" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-7" parent="GNeKwGelp0AtwS-ODqFb-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="111" width="800" y="79" as="geometry" />
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-8" parent="GNeKwGelp0AtwS-ODqFb-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Tworzenie" vertex="1">
+          <mxGeometry height="111" width="244" as="geometry">
+            <mxRectangle height="111" width="244" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-9" parent="GNeKwGelp0AtwS-ODqFb-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Tworzona jako część zasobu Azure (np. Azure Virtual Machines, Azure App Service)." vertex="1">
+          <mxGeometry height="111" width="245" x="244" as="geometry">
+            <mxRectangle height="111" width="245" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-10" parent="GNeKwGelp0AtwS-ODqFb-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Tworzona jako samodzielny zasób w Azure." vertex="1">
+          <mxGeometry height="111" width="311" x="489" as="geometry">
+            <mxRectangle height="111" width="311" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-11" parent="GNeKwGelp0AtwS-ODqFb-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="150" width="800" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-12" parent="GNeKwGelp0AtwS-ODqFb-11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Cykl życia" vertex="1">
+          <mxGeometry height="150" width="244" as="geometry">
+            <mxRectangle height="150" width="244" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-13" parent="GNeKwGelp0AtwS-ODqFb-11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;p&gt;Dziedziczy cykl życia po zasobie, z którym została utworzona. &lt;br&gt; Gdy zasób nadrzędny zostanie usunięty, tożsamość również jest usuwana.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="150" width="245" x="244" as="geometry">
+            <mxRectangle height="150" width="245" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-14" parent="GNeKwGelp0AtwS-ODqFb-11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;p&gt;Niezależny cykl życia. &lt;br&gt; Musi zostać usunięta ręcznie.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="150" width="311" x="489" as="geometry">
+            <mxRectangle height="150" width="311" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-15" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="370" width="800" x="40" y="-660" as="geometry" />
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-16" parent="GNeKwGelp0AtwS-ODqFb-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="100" width="800" as="geometry" />
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-17" parent="GNeKwGelp0AtwS-ODqFb-16" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Współdzielenie między zasobami Azure" vertex="1">
+          <mxGeometry height="100" width="244" as="geometry">
+            <mxRectangle height="100" width="244" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-18" parent="GNeKwGelp0AtwS-ODqFb-16" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Nie może być współdzielona. Może być powiązana tylko z jednym zasobem Azure." vertex="1">
+          <mxGeometry height="100" width="245" x="244" as="geometry">
+            <mxRectangle height="100" width="245" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-19" parent="GNeKwGelp0AtwS-ODqFb-16" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;p&gt;Może być współdzielona. &lt;br&gt; Ta sama user‑assigned identity może być przypisana do wielu zasobów Azure.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="311" x="489" as="geometry">
+            <mxRectangle height="100" width="311" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-20" parent="GNeKwGelp0AtwS-ODqFb-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="250" width="800" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-21" parent="GNeKwGelp0AtwS-ODqFb-20" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Typowe scenariusze użycia" vertex="1">
+          <mxGeometry height="250" width="244" as="geometry">
+            <mxRectangle height="250" width="244" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-22" parent="GNeKwGelp0AtwS-ODqFb-20" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Workloady działające w ramach jednego zasobu Azure. Workloady wymagające tożsamości powiązanej z konkretnym zasobem. Przykład: aplikacja działająca na pojedynczej maszynie wirtualnej." vertex="1">
+          <mxGeometry height="250" width="245" x="244" as="geometry">
+            <mxRectangle height="250" width="245" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-23" parent="GNeKwGelp0AtwS-ODqFb-20" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Workloady działające na wielu zasobach, które mogą współdzielić jedną tożsamość. Workloady wymagające wcześniejszej autoryzacji do zasobu zabezpieczonego, np. w procesie provisioningowym.&lt;b&gt;Workloady, w których zasoby są często odtwarzane&lt;/b&gt;, ale uprawnienia muszą pozostać spójne. Przykład: wiele maszyn wirtualnych musi uzyskać dostęp do tego samego zasobu." vertex="1">
+          <mxGeometry height="250" width="311" x="489" as="geometry">
+            <mxRectangle height="250" width="311" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-24" parent="GNeKwGelp0AtwS-ODqFb-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="20" width="800" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-25" parent="GNeKwGelp0AtwS-ODqFb-24" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="20" width="244" as="geometry">
+            <mxRectangle height="20" width="244" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-26" parent="GNeKwGelp0AtwS-ODqFb-24" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="20" width="245" x="244" as="geometry">
+            <mxRectangle height="20" width="245" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GNeKwGelp0AtwS-ODqFb-27" parent="GNeKwGelp0AtwS-ODqFb-24" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="20" width="311" x="489" as="geometry">
+            <mxRectangle height="20" width="311" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
